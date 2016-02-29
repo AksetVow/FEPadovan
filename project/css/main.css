@@ -3,7 +3,7 @@ html {
 }
 
 body{
-	margin: 0px;
+	margin: 0px;	
 }
 
 time{
@@ -176,7 +176,6 @@ time{
 	margin-bottom: 19px;
 	color: #d98000;
 	margin-left: 21px;
-	font-family: ClearSans;
 	font-size:22px;
 	font-size:2.2rem;	
 	font-weight: 100;
@@ -186,12 +185,15 @@ time{
 
 .dark-section{
 	background-color: black;
+	font-family: ClearSans;
+	color:  white;	
 }
 
 .info{
 	margin-left: 21px;
 	margin-top: 27px;
 	margin-bottom: 27px;
+	margin-right: 52px;
 }
 
 .song-image{
@@ -276,4 +278,29 @@ time{
 	margin-top: 10px;
 	margin-bottom: 0px;
 	width: 57px;
+}
+
+.events{
+	display: flex;	
+	flex-direction: column;	
+	margin-left: 124px;
+
+}
+
+.events h2{
+	margin-top: 13px;
+	margin-bottom: 0px;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 18px;
+	text-align: left;
+}
+
+.events p{
+	margin-top: 13px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	line-height: 18px;
+	text-align: left;
+	color:  #999999;
 }
