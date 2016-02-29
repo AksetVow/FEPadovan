@@ -6,6 +6,15 @@ body{
 	margin: 0px;
 }
 
+time{
+	font-family: ClearSans;
+	color: #999999;
+	font-size: 11px; 
+	font-weight: 300;
+	line-height: 12px; 
+	text-align: left;
+}
+
 .radio-image{
 	width: 8.7rem;
 }
@@ -211,13 +220,7 @@ body{
 
 .song-description time{
 	margin-top: 6px;
-	margin-bottom: 0px; 
-	font-family: ClearSans;
-	color: #999999;
-	font-size: 11px; 
-	font-weight: 300;
-	line-height: 12px; 
-	text-align: left;	
+	margin-bottom: 0px; 	
 }
 
 .song-name{
@@ -238,6 +241,7 @@ body{
 
 .concert-desc{
 	display: flex;	
+	flex-direction: column;
 	margin-left: 124px;
 	font-family: ClearSans;
 	color:  #ffffff;
@@ -247,6 +251,29 @@ body{
 	text-align: left;	
 }
 
-.more-btn{
+.concert-desc p{
+	margin-top: 13px;
+	margin-bottom: 0px;
+	font-family: ClearSans;
+	color:  #ffffff;
+	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
 
+.concert-details{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+}
+
+
+.more-btn{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	width: 57px;
 }
