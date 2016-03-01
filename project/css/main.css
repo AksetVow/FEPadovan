@@ -4,10 +4,10 @@ html {
 
 body{
 	margin: 0px;	
+	font-family: ClearSans, sans-serif;
 }
 
 time{
-	font-family: ClearSans;
 	color: #999999;
 	font-size: 11px; 
 	font-weight: 300;
@@ -16,26 +16,19 @@ time{
 }
 
 .radio-image{
-	width: 8.7rem;
+	width: 87px;
 }
 
 .main-image{
 	width: 372px;	
-	width: 37.2rem;
 	margin-left: 21px;
-	margin-left: 2.1rem;	
 }
 
 .main
 {
 	width: 414px;
-	width: 41.4rem;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.text{
-	font-family: ClearSans;
 }
 
 .current-album{
@@ -47,7 +40,6 @@ time{
 	vertical-align:middle;
 	color:white;
 	font-size: 14px;	
-	font-size: 1.4rem;
 	font-weight: 400;
 	text-align: left;	
 }
@@ -72,7 +64,6 @@ time{
 	display: flex;
 	margin: 20px 20px 0px 20px;
 	height: 101px;	
-	height: 10.1rem;
 }
 
 .aside-menu{
@@ -185,7 +176,6 @@ time{
 
 .dark-section{
 	background-color: black;
-	font-family: ClearSans;
 	color:  white;	
 }
 
@@ -207,7 +197,6 @@ time{
 	height: 49px;
 	margin-left: 11px;
 	color: white;
-	font-family: ClearSans;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 12px;
@@ -226,7 +215,6 @@ time{
 }
 
 .song-name{
-	font-family: ClearSans;
 	color: #ffffff;
 	font-size: 16px; 
 	font-weight: 300;
@@ -245,7 +233,6 @@ time{
 	display: flex;	
 	flex-direction: column;
 	margin-left: 124px;
-	font-family: ClearSans;
 	color:  #ffffff;
 	font-size: 17px;
 	font-weight: 300;
@@ -256,11 +243,10 @@ time{
 .concert-desc p{
 	margin-top: 13px;
 	margin-bottom: 0px;
-	font-family: ClearSans;
 	color:  #ffffff;
-	font-size: 17px;/* Приближение из-за подстановки шрифтов */
+	font-size: 17px;
 	font-weight: 300;
-	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	line-height: 24px;
 	text-align: left;
 }
 
