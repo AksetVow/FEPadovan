@@ -40,7 +40,6 @@ time{
 	color:white;
 	font-size: 14px;	
 	font-weight: 400;
-	text-align: left;	
 }
 
 .current-song{
@@ -213,27 +212,6 @@ time{
 
 }
 
-.concert-desc{
-	display: flex;	
-	flex-direction: column;
-	margin-left: 124px;
-	color:  #ffffff;
-	font-size: 17px;
-	font-weight: 300;
-	line-height: 24px;
-	text-align: left;	
-}
-
-.concert-desc p, .concert-desc h2{
-	margin-top: 13px;
-	margin-bottom: 0px;
-	color:  #ffffff;
-	font-size: 17px;
-	font-weight: 300;
-	line-height: 24px;
-	text-align: left;
-}
-
 .concert-details{
 	margin-top: 10px;
 	margin-bottom: 0px;
@@ -257,20 +235,19 @@ time{
 
 }
 
-.events h2{
+.events h2, .events p{
 	margin-top: 13px;
 	margin-bottom: 0px;
-	font-size: 17px;
-	font-weight: 300;
 	line-height: 18px;
 	text-align: left;
 }
 
+.events h2{
+	font-size: 17px;
+	font-weight: 300;
+}
+
 .events p{
-	margin-top: 13px;
-	margin-bottom: 0px;
 	font-size: 13px;
-	line-height: 18px;
-	text-align: left;
 	color:  #999999;
 }
