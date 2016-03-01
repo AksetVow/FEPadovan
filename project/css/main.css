@@ -35,7 +35,7 @@ time{
 	display: flex;
 }
 
-.current-album h1{
+.current-album h2{
 	margin:auto;
 	vertical-align:middle;
 	color:white;
@@ -49,7 +49,7 @@ time{
 	margin-top: 10px;
 }
 
-.current-song h2{
+.current-song h3{
 	margin:auto;
 	vertical-align:middle;
 	color:white;
@@ -133,20 +133,20 @@ time{
 
 .small-stop{
 	font-size: 35px;
-    margin-top: 7px;	
+    margin-top: 0px;	
     margin-left:0px;
 }
 
 .small-next{
 	font-size: 35px;
-    margin-top: 6px;	
+    margin-top: 2px;	
     margin-left:4px;
 }
 
 .big-play{
 	font-size: 51px;
-    margin-top: 12px;	
-    margin-left: 4px;
+    margin-top: 2px;	
+    margin-left: 6px;
 }
 
 .dark-section h1{
@@ -165,10 +165,7 @@ time{
 }
 
 .info{
-	margin-left: 21px;
-	margin-top: 27px;
-	margin-bottom: 27px;
-	margin-right: 52px;
+	margin: 27px 52px 27px 21px;
 }
 
 .song-image{
@@ -180,17 +177,21 @@ time{
 	display: inline-block;
 	height: 49px;
 	margin-left: 11px;
-	color: white;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 12px;
 	text-align: left;	
-	top: 0px;
 }
 
-.song-description p{
+.song-description p, .song-description h2{
 	margin-top: 6px;
 	margin-bottom: 6px; 
+}
+
+.song-description h2{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 12px;	
 }
 
 .song-description time{
@@ -224,7 +225,7 @@ time{
 	text-align: left;	
 }
 
-.concert-desc p{
+.concert-desc p, .concert-desc h2{
 	margin-top: 13px;
 	margin-bottom: 0px;
 	color:  #ffffff;
