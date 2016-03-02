@@ -251,3 +251,36 @@ time{
 	font-size: 13px;
 	color:  #999999;
 }
+
+.forward{
+	width: 21px;
+}
+
+.info-links h2{
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.info-links{
+	margin-top:22px;
+	margin-left: 21px;
+}
+
+.forward-container{
+	text-align: right;
+	display: inline-block;
+	float: right;
+	margin-right: 14px;
+}
+
+.link-container{
+	vertical-align: top;
+	display: inline-block;
+}
+
+.link-container p{
+	font-size: 11px;
+	font-weight: 300;
+	color:  #999999;
+	margin-left: 2px;
+}
