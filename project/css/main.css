@@ -4,6 +4,7 @@ html {
 
 body{
 	font-family: ClearSans, sans-serif;
+	background-color: black;
 }
 
 time{
@@ -12,6 +13,19 @@ time{
 	font-weight: 300;
 	line-height: 12px; 
 	text-align: left;
+}
+
+hr{
+	background-color:  rgba(56, 47, 11, 0.5);
+	width: 414px;
+	height: 1px;
+	border: 0px;
+	padding: 0px;
+	margin: 27px 0px 23px 0px;
+}
+
+.last-hr{
+	margin-bottom: 0px;
 }
 
 .radio-image{
