@@ -33,12 +33,13 @@ hr{
 }
 
 .main-image{
-	margin-left: 21px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .main
 {
-	overflow:hidden; 
 	margin-left: auto;
 	margin-right: auto;
 }
