@@ -33,13 +33,12 @@ hr{
 }
 
 .main-image{
-	width: 372px;	
 	margin-left: 21px;
 }
 
 .main
 {
-	width: 414px;
+	overflow:hidden; 
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -74,7 +73,8 @@ hr{
 
 .top-menu{
 	display: flex;
-	margin: 20px 20px 0px 20px;
+	margin: 0px 20px 0px 20px;
+	padding-top: 20px;
 	height: 101px;	
 }
 
